@@ -1,0 +1,13 @@
+{
+  "name": "say-hello",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "jest *.js"
+  },
+  "devDependencies": {
+    "serverless": "^1.32.0"
+  },
+  "dependencies": {}
+}
