@@ -7,6 +7,6 @@ module.exports.helloFellows = async (event) => {
 
   return {
     statusCode: '200',
-    body: `Hello my fellows, i'm ${name}}`
+    body: `Hello my fellows, i'm ${name}`
   };
 };
