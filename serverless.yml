@@ -1,4 +1,4 @@
-service: gimme-time
+service: hello-world
 
 provider:
   name: aws
