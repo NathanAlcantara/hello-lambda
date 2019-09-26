@@ -1,5 +1,6 @@
 #! /bin/bash
 
 npm install -g serverless
-echo $CODEBUILD_SRC_DIR
+mkdir -p target/stg
+mkdir target/prod
 serverless deploy --stage $env --package $CODEBUILD_SRC_DIR/target/$env -v -r us-east-1
