@@ -7,7 +7,7 @@ provider:
   STAGE: ${opt:stage}
 
 functions:
-  gimmetime:
+  helloWord:
     handler: handler.helloFellows
     events:
       - http:
